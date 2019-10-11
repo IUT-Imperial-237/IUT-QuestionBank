@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GalleryFragment">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="290dp"
+        android:layout_height="438dp"
+
+        android:layout_marginStart="69dp"
+        android:layout_marginLeft="69dp"
+        android:layout_marginTop="241dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:layout_marginBottom="52dp"
+        android:gravity="center_horizontal|top|center_vertical"
+        android:text="this is about the application. here we will teach you how to use the application . the application was designed by abdelkader student of iut batch 16 doing computer science and engineering semester 6. option calculator provide you a basic calculator. option home just display a welcome message and option demo image display iut five pillars of islam"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="162dp"
+        android:layout_height="92dp"
+
+        android:layout_marginStart="123dp"
+        android:layout_marginLeft="123dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginRight="126dp"
+        android:layout_marginBottom="515dp"
+        android:text="ABOUT"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</RelativeLayout>

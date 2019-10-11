@@ -1,0 +1,310 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TveFragment">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="413dp"
+            android:layout_height="733dp"
+
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="-1dp">
+
+            <TableRow>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:id="@+id/imageButtonMceDepartment"
+                        android:layout_width="364dp"
+                        android:layout_height="155dp"
+                        android:layout_marginBottom="30dp"
+                        android:background="@drawable/tve"
+                        tools:layout_editor_absoluteX="5dp"
+                        tools:layout_editor_absoluteY="44dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:clickable="false"
+                        android:shadowColor="#00E08787"
+                        android:text="TVE DEPARTMENT"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp"
+                        android:textStyle="bold"></TextView>
+                </FrameLayout>
+
+            </TableRow>
+
+            <TableRow>
+
+
+                <LinearLayout android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageButton
+                            android:id="@+id/imageButtonTveSem1"
+                            android:layout_width="170dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="#1976D2"
+                            android:baselineAlignBottom="true"
+                            android:clickable="true"
+                            tools:layout_editor_absoluteX="5dp"
+                            tools:layout_editor_absoluteY="44dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:clickable="false"
+                            android:shadowColor="#00E08787"
+                            android:text="SEM1"
+                            android:textColor="#FFFFFF"
+                            android:textSize="36sp"
+                            android:textStyle="bold"></TextView>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageButton
+                            android:id="@+id/imageButtonTveSem2"
+                            android:layout_width="170dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="#1976D2"
+                            android:clickable="true"
+                            tools:layout_editor_absoluteX="5dp"
+                            tools:layout_editor_absoluteY="44dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:clickable="false"
+                            android:shadowColor="#00E08787"
+                            android:text="SEM2"
+                            android:textColor="#FFFFFF"
+                            android:textSize="36sp"
+                            android:textStyle="bold"></TextView>
+                    </FrameLayout>
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow>
+
+
+                <LinearLayout android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageButton
+                            android:id="@+id/imageButtonTveSem3"
+                            android:layout_width="170dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="#1976D2"
+                            android:clickable="true"
+                            tools:layout_editor_absoluteX="5dp"
+                            tools:layout_editor_absoluteY="44dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:clickable="false"
+                            android:shadowColor="#00E08787"
+                            android:text="SEM3"
+                            android:textColor="#FFFFFF"
+                            android:textSize="36sp"
+                            android:textStyle="bold"></TextView>
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageButton
+                            android:id="@+id/imageButtonTveSem4"
+                            android:layout_width="170dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="#1976D2"
+                            android:clickable="true"
+                            tools:layout_editor_absoluteX="5dp"
+                            tools:layout_editor_absoluteY="44dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:clickable="false"
+                            android:shadowColor="#00E08787"
+                            android:text="SEM4"
+                            android:textColor="#FFFFFF"
+                            android:textSize="36sp"
+                            android:textStyle="bold"></TextView>
+                    </FrameLayout>
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow>
+
+
+                <LinearLayout android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageButton
+                            android:id="@+id/imageButtonTveSem5"
+                            android:layout_width="170dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="#1976D2"
+                            android:clickable="true"
+                            tools:layout_editor_absoluteX="5dp"
+                            tools:layout_editor_absoluteY="44dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:clickable="false"
+                            android:shadowColor="#00E08787"
+                            android:text="SEM5"
+                            android:textColor="#FFFFFF"
+                            android:textSize="36sp"
+                            android:textStyle="bold"></TextView>
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageButton
+                            android:id="@+id/imageButtonTveSem6"
+                            android:layout_width="170dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="#1976D2"
+                            android:clickable="true"
+                            tools:layout_editor_absoluteX="5dp"
+                            tools:layout_editor_absoluteY="44dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:clickable="false"
+                            android:shadowColor="#00E08787"
+                            android:text="SEM6"
+                            android:textColor="#FFFFFF"
+                            android:textSize="36sp"
+                            android:textStyle="bold"></TextView>
+
+                    </FrameLayout>
+                </LinearLayout>
+
+
+            </TableRow>
+            <TableRow>
+
+
+                <LinearLayout android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageButton
+                            android:id="@+id/imageButtonTveSem7"
+                            android:layout_width="170dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="#1976D2"
+                            android:clickable="true"
+                            tools:layout_editor_absoluteX="5dp"
+                            tools:layout_editor_absoluteY="44dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:clickable="false"
+                            android:shadowColor="#00E08787"
+                            android:text="SEM7"
+                            android:textColor="#FFFFFF"
+                            android:textSize="36sp"
+                            android:textStyle="bold"></TextView>
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageButton
+                            android:id="@+id/imageButtonTveSem8"
+                            android:layout_width="170dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="#1976D2"
+                            android:clickable="true"
+                            tools:layout_editor_absoluteX="5dp"
+                            tools:layout_editor_absoluteY="44dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:clickable="false"
+                            android:shadowColor="#00E08787"
+                            android:text="SEM8"
+                            android:textColor="#FFFFFF"
+                            android:textSize="36sp"
+                            android:textStyle="bold"></TextView>
+
+                    </FrameLayout>
+                </LinearLayout>
+
+
+            </TableRow>
+
+
+        </TableLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

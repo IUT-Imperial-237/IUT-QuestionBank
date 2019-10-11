@@ -1,0 +1,243 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFragment">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="413dp"
+            android:layout_height="733dp"
+
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="-1dp">
+
+            <TableRow>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:id="@+id/imageButton"
+                        android:layout_width="364dp"
+                        android:layout_height="155dp"
+                        android:layout_marginBottom="30dp"
+                        android:background="@drawable/iut_slider4"
+                        tools:layout_editor_absoluteX="5dp"
+                        tools:layout_editor_absoluteY="44dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:clickable="false"
+                        android:shadowColor="#00E08787"
+                        android:text="IUT EXAMS PAPERS"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp"
+                        android:textStyle="bold"></TextView>
+                </FrameLayout>
+
+            </TableRow>
+
+            <TableRow>
+
+
+                <LinearLayout android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageButton
+                            android:id="@+id/imageButtonCse"
+                            android:layout_width="170dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@drawable/cse"
+                            android:baselineAlignBottom="true"
+                            android:clickable="true"
+                            tools:layout_editor_absoluteX="5dp"
+                            tools:layout_editor_absoluteY="44dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:clickable="false"
+                            android:shadowColor="#00E08787"
+                            android:text="CSE"
+                            android:textColor="#FFFFFF"
+                            android:textSize="36sp"
+                            android:textStyle="bold"></TextView>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageButton
+                            android:id="@+id/imageButtonEee"
+                            android:layout_width="170dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@drawable/eee"
+                            android:clickable="true"
+                            tools:layout_editor_absoluteX="5dp"
+                            tools:layout_editor_absoluteY="44dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:clickable="false"
+                            android:shadowColor="#00E08787"
+                            android:text="EEE"
+                            android:textColor="#FFFFFF"
+                            android:textSize="36sp"
+                            android:textStyle="bold"></TextView>
+                    </FrameLayout>
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow>
+
+
+                <LinearLayout android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageButton
+                            android:id="@+id/imageButtonMce"
+                            android:layout_width="170dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@drawable/mce"
+                            android:clickable="true"
+                            tools:layout_editor_absoluteX="5dp"
+                            tools:layout_editor_absoluteY="44dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:clickable="false"
+                            android:shadowColor="#00E08787"
+                            android:text="MCE"
+                            android:textColor="#FFFFFF"
+                            android:textSize="36sp"
+                            android:textStyle="bold"></TextView>
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageButton
+                            android:id="@+id/imageButtonCee"
+                            android:layout_width="170dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@drawable/cee"
+                            android:clickable="true"
+                            tools:layout_editor_absoluteX="5dp"
+                            tools:layout_editor_absoluteY="44dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:clickable="false"
+                            android:shadowColor="#00E08787"
+                            android:text="CEE"
+                            android:textColor="#FFFFFF"
+                            android:textSize="36sp"
+                            android:textStyle="bold"></TextView>
+                    </FrameLayout>
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow>
+
+
+                <LinearLayout android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageButton
+                            android:id="@+id/imageButtonBtm"
+                            android:layout_width="170dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@drawable/btm"
+                            android:clickable="true"
+                            tools:layout_editor_absoluteX="5dp"
+                            tools:layout_editor_absoluteY="44dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:clickable="false"
+                            android:shadowColor="#00E08787"
+                            android:text="BTM"
+                            android:textColor="#FFFFFF"
+                            android:textSize="36sp"
+                            android:textStyle="bold"></TextView>
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageButton
+                            android:id="@+id/imageButtonTve"
+                            android:layout_width="170dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@drawable/tve"
+                            android:clickable="true"
+                            tools:layout_editor_absoluteX="5dp"
+                            tools:layout_editor_absoluteY="44dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:clickable="false"
+                            android:shadowColor="#00E08787"
+                            android:text="TVE"
+                            android:textColor="#FFFFFF"
+                            android:textSize="36sp"
+                            android:textStyle="bold"></TextView>
+
+                    </FrameLayout>
+                </LinearLayout>
+
+            </TableRow>
+
+
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>

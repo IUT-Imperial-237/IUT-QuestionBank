@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">drawerLast</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Demo Gallery</string>
+    <string name="menu_slideshow">Calculator</string>
+    <string name="menu_tools">About</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="basic_calculator">basic calculator</string>
+    <string name="enter_number1">enter number1</string>
+    <string name="enter_number2">enter number2</string>
+    <string name="add">+</string>
+    <string name="equal">=</string>
+    <string name="mul">x</string>
+    <string name="sub">-</string>
+    <string name="clear">Clear</string>
+    <string name="favorites">Favorites</string>
+    <string name="type_the_course_code">type the course code</string>
+    <string name="enter_course_code">enter course code</string>
+</resources>

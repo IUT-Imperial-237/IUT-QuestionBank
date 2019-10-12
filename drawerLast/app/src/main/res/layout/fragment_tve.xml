@@ -4,8 +4,8 @@
     tools:context=".TveFragment">
 
     <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <TableLayout
             android:layout_width="413dp"
@@ -22,10 +22,11 @@
 
                     <ImageButton
                         android:id="@+id/imageButtonMceDepartment"
-                        android:layout_width="364dp"
-                        android:layout_height="155dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="148dp"
                         android:layout_marginBottom="30dp"
                         android:background="@drawable/tve"
+                        android:contentDescription="@string/todo"
                         tools:layout_editor_absoluteX="5dp"
                         tools:layout_editor_absoluteY="44dp" />
 
@@ -35,7 +36,7 @@
                         android:layout_gravity="center"
                         android:clickable="false"
                         android:shadowColor="#00E08787"
-                        android:text="TVE DEPARTMENT"
+                        android:text="@string/tve_department"
                         android:textColor="#FFFFFF"
                         android:textSize="20sp"
                         android:textStyle="bold"></TextView>
@@ -54,7 +55,7 @@
 
                         <ImageButton
                             android:id="@+id/imageButtonTveSem1"
-                            android:layout_width="170dp"
+                            android:layout_width="210dp"
                             android:layout_height="100dp"
                             android:layout_marginLeft="8dp"
                             android:layout_marginRight="2dp"
@@ -71,7 +72,7 @@
                             android:layout_gravity="center"
                             android:clickable="false"
                             android:shadowColor="#00E08787"
-                            android:text="SEM1"
+                            android:text="@string/sem1"
                             android:textColor="#FFFFFF"
                             android:textSize="36sp"
                             android:textStyle="bold"></TextView>
@@ -83,7 +84,7 @@
 
                         <ImageButton
                             android:id="@+id/imageButtonTveSem2"
-                            android:layout_width="170dp"
+                            android:layout_width="191dp"
                             android:layout_height="100dp"
                             android:layout_marginLeft="2dp"
                             android:layout_marginBottom="5dp"
@@ -98,7 +99,7 @@
                             android:layout_gravity="center"
                             android:clickable="false"
                             android:shadowColor="#00E08787"
-                            android:text="SEM2"
+                            android:text="@string/sem2"
                             android:textColor="#FFFFFF"
                             android:textSize="36sp"
                             android:textStyle="bold"></TextView>
@@ -118,7 +119,7 @@
 
                         <ImageButton
                             android:id="@+id/imageButtonTveSem3"
-                            android:layout_width="170dp"
+                            android:layout_width="212dp"
                             android:layout_height="100dp"
                             android:layout_marginLeft="8dp"
                             android:layout_marginRight="2dp"
@@ -134,7 +135,7 @@
                             android:layout_gravity="center"
                             android:clickable="false"
                             android:shadowColor="#00E08787"
-                            android:text="SEM3"
+                            android:text="@string/sem3"
                             android:textColor="#FFFFFF"
                             android:textSize="36sp"
                             android:textStyle="bold"></TextView>
@@ -147,7 +148,7 @@
 
                         <ImageButton
                             android:id="@+id/imageButtonTveSem4"
-                            android:layout_width="170dp"
+                            android:layout_width="188dp"
                             android:layout_height="100dp"
                             android:layout_marginLeft="2dp"
                             android:layout_marginBottom="5dp"
@@ -162,7 +163,7 @@
                             android:layout_gravity="center"
                             android:clickable="false"
                             android:shadowColor="#00E08787"
-                            android:text="SEM4"
+                            android:text="@string/sem4"
                             android:textColor="#FFFFFF"
                             android:textSize="36sp"
                             android:textStyle="bold"></TextView>
@@ -182,7 +183,7 @@
 
                         <ImageButton
                             android:id="@+id/imageButtonTveSem5"
-                            android:layout_width="170dp"
+                            android:layout_width="210dp"
                             android:layout_height="100dp"
                             android:layout_marginLeft="8dp"
                             android:layout_marginRight="2dp"
@@ -198,7 +199,7 @@
                             android:layout_gravity="center"
                             android:clickable="false"
                             android:shadowColor="#00E08787"
-                            android:text="SEM5"
+                            android:text="@string/sem5"
                             android:textColor="#FFFFFF"
                             android:textSize="36sp"
                             android:textStyle="bold"></TextView>
@@ -211,12 +212,14 @@
 
                         <ImageButton
                             android:id="@+id/imageButtonTveSem6"
-                            android:layout_width="170dp"
+                            android:layout_width="192dp"
                             android:layout_height="100dp"
+                            android:layout_marginStart="2dp"
                             android:layout_marginLeft="2dp"
                             android:layout_marginBottom="5dp"
                             android:background="#1976D2"
                             android:clickable="true"
+                            android:focusable="true"
                             tools:layout_editor_absoluteX="5dp"
                             tools:layout_editor_absoluteY="44dp" />
 
@@ -226,7 +229,7 @@
                             android:layout_gravity="center"
                             android:clickable="false"
                             android:shadowColor="#00E08787"
-                            android:text="SEM6"
+                            android:text="@string/sem6"
                             android:textColor="#FFFFFF"
                             android:textSize="36sp"
                             android:textStyle="bold"></TextView>
@@ -236,6 +239,7 @@
 
 
             </TableRow>
+
             <TableRow>
 
 
@@ -247,13 +251,17 @@
 
                         <ImageButton
                             android:id="@+id/imageButtonTveSem7"
-                            android:layout_width="170dp"
+                            android:layout_width="212dp"
                             android:layout_height="100dp"
+                            android:layout_marginStart="8dp"
                             android:layout_marginLeft="8dp"
+                            android:layout_marginEnd="2dp"
                             android:layout_marginRight="2dp"
                             android:layout_marginBottom="5dp"
                             android:background="#1976D2"
                             android:clickable="true"
+                            android:contentDescription="@string/todo"
+                            android:focusable="true"
                             tools:layout_editor_absoluteX="5dp"
                             tools:layout_editor_absoluteY="44dp" />
 
@@ -263,7 +271,7 @@
                             android:layout_gravity="center"
                             android:clickable="false"
                             android:shadowColor="#00E08787"
-                            android:text="SEM7"
+                            android:text="@string/sem7"
                             android:textColor="#FFFFFF"
                             android:textSize="36sp"
                             android:textStyle="bold"></TextView>
@@ -276,12 +284,15 @@
 
                         <ImageButton
                             android:id="@+id/imageButtonTveSem8"
-                            android:layout_width="170dp"
+                            android:layout_width="191dp"
                             android:layout_height="100dp"
+                            android:layout_marginStart="2dp"
                             android:layout_marginLeft="2dp"
                             android:layout_marginBottom="5dp"
                             android:background="#1976D2"
                             android:clickable="true"
+                            android:contentDescription="@string/todo"
+                            android:focusable="true"
                             tools:layout_editor_absoluteX="5dp"
                             tools:layout_editor_absoluteY="44dp" />
 
@@ -291,7 +302,7 @@
                             android:layout_gravity="center"
                             android:clickable="false"
                             android:shadowColor="#00E08787"
-                            android:text="SEM8"
+                            android:text="@string/sem8"
                             android:textColor="#FFFFFF"
                             android:textSize="36sp"
                             android:textStyle="bold"></TextView>

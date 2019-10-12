@@ -27,4 +27,21 @@
     <string name="favorites">Favorites</string>
     <string name="type_the_course_code">type the course code</string>
     <string name="enter_course_code">enter course code</string>
+    <string name="action_login">Log In</string>
+    <string name="action_logout">Log Out</string>
+    <string name="action_account">My Account</string>
+    <string name="submit_paper">Submit Paper</string>
+    <string name="communicate">Communicate</string>
+    <string name="iut_exams">IUT EXAMS</string>
+    <string name="user_host_com">user@host.com</string>
+    <string name="sem8">SEM8</string>
+    <string name="tve_department">TVE DEPARTMENT</string>
+    <string name="sem7">SEM7</string>
+    <string name="todo">TODO</string>
+    <string name="sem6">SEM6</string>
+    <string name="sem5">SEM5</string>
+    <string name="sem4">SEM4</string>
+    <string name="sem3">SEM3</string>
+    <string name="sem2">SEM2</string>
+    <string name="sem1">SEM1</string>
 </resources>

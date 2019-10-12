@@ -17,14 +17,14 @@
         <item
             android:id="@+id/nav_submit"
             android:icon="@drawable/ic_attachment_black_24dp"
-            android:title="submit paper" />
+            android:title="@string/submit_paper" />
         <item
             android:id="@+id/nav_tools"
             android:icon="@drawable/ic_group"
             android:title="@string/menu_tools" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="@string/communicate">
         <menu>
             <item
                 android:id="@+id/nav_share"

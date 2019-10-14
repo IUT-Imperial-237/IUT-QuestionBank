@@ -66,6 +66,7 @@
                             tools:layout_editor_absoluteY="44dp" />
 
                         <TextView
+                            android:id="@+id/txtsem1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
@@ -243,32 +244,7 @@
 
                     <FrameLayout
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
-
-                        <ImageButton
-                            android:id="@+id/imageButtonCseSem7"
-                            android:layout_width="170dp"
-                            android:layout_height="100dp"
-                            android:layout_marginLeft="8dp"
-                            android:layout_marginRight="2dp"
-                            android:layout_marginBottom="5dp"
-                            android:background="#1976D2"
-                            android:clickable="true"
-                            tools:layout_editor_absoluteX="5dp"
-                            tools:layout_editor_absoluteY="44dp" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:clickable="false"
-                            android:shadowColor="#00E08787"
-                            android:text="SEM7"
-                            android:textColor="#FFFFFF"
-                            android:textSize="36sp"
-                            android:textStyle="bold"></TextView>
-
-                    </FrameLayout>
+                        android:layout_height="wrap_content" />
 
                     <FrameLayout
                         android:layout_width="wrap_content"
@@ -297,6 +273,13 @@
                             android:textStyle="bold"></TextView>
 
                     </FrameLayout>
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Button" />
                 </LinearLayout>
 
 

@@ -58,7 +58,7 @@ public class MainFragment extends Fragment {
             public void onClick (View v) {
 
 
-                EeeeFragment fragment = new EeeeFragment ();
+                EeeFragment fragment = new EeeFragment ();
                 android.support.v4.app.FragmentTransaction fragmentTransaction = Objects.requireNonNull (getActivity ()).getSupportFragmentManager ().beginTransaction ();
                 fragmentTransaction.replace (R.id.fragment_container, fragment);
                 fragmentTransaction.commit ();

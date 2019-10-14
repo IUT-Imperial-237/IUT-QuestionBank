@@ -44,7 +44,10 @@ public class MainFragment extends Fragment {
             public void onClick (View v) {
 
 
-                CseFragment fragment = new CseFragment ();
+                SemesterFragment fragment = new SemesterFragment ();
+                Bundle bundle = new Bundle ();
+                bundle.putString ("department", SemesterFragment.CSE);
+                fragment.setArguments (bundle);
                 android.support.v4.app.FragmentTransaction fragmentTransaction = Objects.requireNonNull (getActivity ()).getSupportFragmentManager ().beginTransaction ();
                 fragmentTransaction.replace (R.id.fragment_container, fragment);
                 fragmentTransaction.commit ();
@@ -58,7 +61,10 @@ public class MainFragment extends Fragment {
             public void onClick (View v) {
 
 
-                EeeeFragment fragment = new EeeeFragment ();
+                SemesterFragment fragment = new SemesterFragment ();
+                Bundle bundle = new Bundle ();
+                bundle.putString ("department", SemesterFragment.EEE);
+                fragment.setArguments (bundle);
                 android.support.v4.app.FragmentTransaction fragmentTransaction = Objects.requireNonNull (getActivity ()).getSupportFragmentManager ().beginTransaction ();
                 fragmentTransaction.replace (R.id.fragment_container, fragment);
                 fragmentTransaction.commit ();
@@ -72,7 +78,10 @@ public class MainFragment extends Fragment {
             public void onClick (View v) {
 
 
-                MceFragment fragment = new MceFragment ();
+                SemesterFragment fragment = new SemesterFragment ();
+                Bundle bundle = new Bundle ();
+                bundle.putString ("department", SemesterFragment.MCE);
+                fragment.setArguments (bundle);
                 android.support.v4.app.FragmentTransaction fragmentTransaction = Objects.requireNonNull (getActivity ()).getSupportFragmentManager ().beginTransaction ();
                 fragmentTransaction.replace (R.id.fragment_container, fragment);
                 fragmentTransaction.commit ();
@@ -86,7 +95,10 @@ public class MainFragment extends Fragment {
             public void onClick (View v) {
 
 
-                CeeFragment fragment = new CeeFragment ();
+                SemesterFragment fragment = new SemesterFragment ();
+                Bundle bundle = new Bundle ();
+                bundle.putString ("department", SemesterFragment.CEE);
+                fragment.setArguments (bundle);
                 android.support.v4.app.FragmentTransaction fragmentTransaction = Objects.requireNonNull (getActivity ()).getSupportFragmentManager ().beginTransaction ();
                 fragmentTransaction.replace (R.id.fragment_container, fragment);
                 fragmentTransaction.commit ();
@@ -100,7 +112,10 @@ public class MainFragment extends Fragment {
             public void onClick (View v) {
 
 
-                BtmFragment fragment = new BtmFragment ();
+                SemesterFragment fragment = new SemesterFragment ();
+                Bundle bundle = new Bundle ();
+                bundle.putString ("department", SemesterFragment.BTM);
+                fragment.setArguments (bundle);
                 android.support.v4.app.FragmentTransaction fragmentTransaction = Objects.requireNonNull (getActivity ()).getSupportFragmentManager ().beginTransaction ();
                 fragmentTransaction.replace (R.id.fragment_container, fragment);
                 fragmentTransaction.commit ();
@@ -114,7 +129,10 @@ public class MainFragment extends Fragment {
             public void onClick (View v) {
 
 
-                TveFragment fragment = new TveFragment ();
+                SemesterFragment fragment = new SemesterFragment ();
+                Bundle bundle = new Bundle ();
+                bundle.putString ("department", SemesterFragment.TVE);
+                fragment.setArguments (bundle);
                 android.support.v4.app.FragmentTransaction fragmentTransaction = Objects.requireNonNull (getActivity ()).getSupportFragmentManager ().beginTransaction ();
                 fragmentTransaction.replace (R.id.fragment_container, fragment);
                 fragmentTransaction.commit ();

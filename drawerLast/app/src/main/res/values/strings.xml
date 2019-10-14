@@ -44,4 +44,6 @@
     <string name="sem3">SEM3</string>
     <string name="sem2">SEM2</string>
     <string name="sem1">SEM1</string>
+    <string name="department_icon">Department Icon</string>
+    <string name="sem9">SEM9</string>
 </resources>

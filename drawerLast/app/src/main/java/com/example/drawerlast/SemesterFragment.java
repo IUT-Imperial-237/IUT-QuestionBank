@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 /**
@@ -68,8 +69,8 @@ public class SemesterFragment extends Fragment {
         sem8 = rootView.findViewById (R.id.iBtnSem8);
         sem9 = rootView.findViewById (R.id.iBtnSem9);
 
-        ImageView imageView = rootView.findViewById (R.id.imageView);
-        TextView txtTitle = rootView.findViewById (R.id.textViewDepartment);
+        imageView = rootView.findViewById (R.id.imageView);
+        txtTitle = rootView.findViewById (R.id.textViewDepartment);
 
         txtTitle.setText (bundle.getString ("department"));
 
@@ -96,6 +97,67 @@ public class SemesterFragment extends Fragment {
     }
 
     private void listener (LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        sem1.setOnClickListener (new View.OnClickListener () {
+            @Override
+            public void onClick (View v) {
+                Toast.makeText (rootView.getContext (), txtTitle.getText ().toString () + "Semester 1", Toast.LENGTH_SHORT).show ();
+            }
+        });
 
+        sem2.setOnClickListener (new View.OnClickListener () {
+            @Override
+            public void onClick (View v) {
+                Toast.makeText (rootView.getContext (), txtTitle.getText ().toString () + "Semester 1", Toast.LENGTH_SHORT).show ();
+            }
+        });
+
+        sem3.setOnClickListener (new View.OnClickListener () {
+            @Override
+            public void onClick (View v) {
+                Toast.makeText (rootView.getContext (), txtTitle.getText ().toString () + "Semester 1", Toast.LENGTH_SHORT).show ();
+            }
+        });
+
+        sem4.setOnClickListener (new View.OnClickListener () {
+            @Override
+            public void onClick (View v) {
+                Toast.makeText (rootView.getContext (), txtTitle.getText ().toString () + "Semester 1", Toast.LENGTH_SHORT).show ();
+            }
+        });
+
+        sem5.setOnClickListener (new View.OnClickListener () {
+            @Override
+            public void onClick (View v) {
+                Toast.makeText (rootView.getContext (), txtTitle.getText ().toString () + "Semester 1", Toast.LENGTH_SHORT).show ();
+            }
+        });
+
+        sem6.setOnClickListener (new View.OnClickListener () {
+            @Override
+            public void onClick (View v) {
+                Toast.makeText (rootView.getContext (), txtTitle.getText ().toString () + "Semester 1", Toast.LENGTH_SHORT).show ();
+            }
+        });
+
+        sem7.setOnClickListener (new View.OnClickListener () {
+            @Override
+            public void onClick (View v) {
+                Toast.makeText (rootView.getContext (), txtTitle.getText ().toString () + "Semester 1", Toast.LENGTH_SHORT).show ();
+            }
+        });
+
+        sem8.setOnClickListener (new View.OnClickListener () {
+            @Override
+            public void onClick (View v) {
+                Toast.makeText (rootView.getContext (), txtTitle.getText ().toString () + "Semester 1", Toast.LENGTH_SHORT).show ();
+            }
+        });
+
+        sem9.setOnClickListener (new View.OnClickListener () {
+            @Override
+            public void onClick (View v) {
+                Toast.makeText (rootView.getContext (), txtTitle.getText ().toString () + "Semester 1", Toast.LENGTH_SHORT).show ();
+            }
+        });
     }
 }

@@ -28,7 +28,6 @@ public class MainFragment extends Fragment {
                               Bundle savedInstanceState) {
         ImageButton imageButtonCse, imageButtonEee, imageButtonMce, imageButtonCee, imageButtonBtm, imageButtonTve;
         // Inflate the layout for this fragment
-        // return inflater.inflate(R.layout.fragment_main, container, false);
         View rootView = inflater.inflate (R.layout.fragment_main, container, false);
         imageButtonCse = rootView.findViewById (R.id.imageButtonCse);
         imageButtonEee = rootView.findViewById (R.id.imageButtonEee);

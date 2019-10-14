@@ -1,7 +1,5 @@
 package com.example.drawerlast;
 
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -12,9 +10,9 @@ import android.view.ViewGroup;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link MceFragment.OnFragmentInteractionListener} interface
+ * {link MceFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link MceFragment#newInstance} factory method to
+ * Use the {link MceFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
 public class MceFragment extends Fragment {

@@ -29,13 +29,13 @@ public class CalculatorFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.fragment_calculator, container, false);
 
-        final Button add = (Button) rootView.findViewById(R.id.add);
-        final Button sub = (Button) rootView.findViewById(R.id.sub);
-        final Button mul = (Button) rootView.findViewById(R.id.mul);
+        final Button add = rootView.findViewById (R.id.add);
+        final Button sub = rootView.findViewById (R.id.sub);
+        final Button mul = rootView.findViewById (R.id.mul);
 
-        final EditText num1 = (EditText) rootView.findViewById(R.id.num1);
-       final EditText num2 = (EditText) rootView.findViewById(R.id.num2);
-       final TextView result = (TextView) rootView.findViewById(R.id.result);
+        final EditText num1 = rootView.findViewById (R.id.num1);
+        final EditText num2 = rootView.findViewById (R.id.num2);
+        final TextView result = rootView.findViewById (R.id.result);
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

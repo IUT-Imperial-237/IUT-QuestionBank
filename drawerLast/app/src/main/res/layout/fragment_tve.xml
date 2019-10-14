@@ -57,12 +57,15 @@
                             android:id="@+id/imageButtonTveSem1"
                             android:layout_width="210dp"
                             android:layout_height="100dp"
+                            android:layout_marginStart="8dp"
                             android:layout_marginLeft="8dp"
+                            android:layout_marginEnd="2dp"
                             android:layout_marginRight="2dp"
                             android:layout_marginBottom="5dp"
                             android:background="#1976D2"
                             android:baselineAlignBottom="true"
                             android:clickable="true"
+                            android:focusable="true"
                             tools:layout_editor_absoluteX="5dp"
                             tools:layout_editor_absoluteY="44dp" />
 
@@ -86,10 +89,12 @@
                             android:id="@+id/imageButtonTveSem2"
                             android:layout_width="191dp"
                             android:layout_height="100dp"
+                            android:layout_marginStart="2dp"
                             android:layout_marginLeft="2dp"
                             android:layout_marginBottom="5dp"
                             android:background="#1976D2"
                             android:clickable="true"
+                            android:focusable="true"
                             tools:layout_editor_absoluteX="5dp"
                             tools:layout_editor_absoluteY="44dp" />
 
@@ -121,11 +126,14 @@
                             android:id="@+id/imageButtonTveSem3"
                             android:layout_width="212dp"
                             android:layout_height="100dp"
+                            android:layout_marginStart="8dp"
                             android:layout_marginLeft="8dp"
+                            android:layout_marginEnd="2dp"
                             android:layout_marginRight="2dp"
                             android:layout_marginBottom="5dp"
                             android:background="#1976D2"
                             android:clickable="true"
+                            android:focusable="true"
                             tools:layout_editor_absoluteX="5dp"
                             tools:layout_editor_absoluteY="44dp" />
 
@@ -150,10 +158,12 @@
                             android:id="@+id/imageButtonTveSem4"
                             android:layout_width="188dp"
                             android:layout_height="100dp"
+                            android:layout_marginStart="2dp"
                             android:layout_marginLeft="2dp"
                             android:layout_marginBottom="5dp"
                             android:background="#1976D2"
                             android:clickable="true"
+                            android:focusable="true"
                             tools:layout_editor_absoluteX="5dp"
                             tools:layout_editor_absoluteY="44dp" />
 
@@ -185,11 +195,14 @@
                             android:id="@+id/imageButtonTveSem5"
                             android:layout_width="210dp"
                             android:layout_height="100dp"
+                            android:layout_marginStart="8dp"
                             android:layout_marginLeft="8dp"
+                            android:layout_marginEnd="2dp"
                             android:layout_marginRight="2dp"
                             android:layout_marginBottom="5dp"
                             android:background="#1976D2"
                             android:clickable="true"
+                            android:focusable="true"
                             tools:layout_editor_absoluteX="5dp"
                             tools:layout_editor_absoluteY="44dp" />
 
@@ -260,7 +273,6 @@
                             android:layout_marginBottom="5dp"
                             android:background="#1976D2"
                             android:clickable="true"
-                            android:contentDescription="@string/todo"
                             android:focusable="true"
                             tools:layout_editor_absoluteX="5dp"
                             tools:layout_editor_absoluteY="44dp" />
@@ -291,7 +303,6 @@
                             android:layout_marginBottom="5dp"
                             android:background="#1976D2"
                             android:clickable="true"
-                            android:contentDescription="@string/todo"
                             android:focusable="true"
                             tools:layout_editor_absoluteX="5dp"
                             tools:layout_editor_absoluteY="44dp" />

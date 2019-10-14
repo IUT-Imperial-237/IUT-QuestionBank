@@ -22,7 +22,7 @@
 
                     <ImageButton
                         android:id="@+id/imageButtonBtmDepartment"
-                        android:layout_width="364dp"
+                        android:layout_width="431dp"
                         android:layout_height="155dp"
                         android:layout_marginBottom="30dp"
                         android:background="@drawable/btm"
@@ -54,7 +54,7 @@
 
                         <ImageButton
                             android:id="@+id/imageButtonBtmSem1"
-                            android:layout_width="170dp"
+                            android:layout_width="198dp"
                             android:layout_height="100dp"
                             android:layout_marginLeft="8dp"
                             android:layout_marginRight="2dp"
@@ -83,7 +83,7 @@
 
                         <ImageButton
                             android:id="@+id/imageButtonBtmSem2"
-                            android:layout_width="170dp"
+                            android:layout_width="196dp"
                             android:layout_height="100dp"
                             android:layout_marginLeft="2dp"
                             android:layout_marginBottom="5dp"
@@ -110,7 +110,9 @@
             <TableRow>
 
 
-                <LinearLayout android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="403dp"
+                    android:orientation="horizontal">
 
                     <FrameLayout
                         android:layout_width="wrap_content"
@@ -118,7 +120,7 @@
 
                         <ImageButton
                             android:id="@+id/imageButtonBtmSem3"
-                            android:layout_width="170dp"
+                            android:layout_width="195dp"
                             android:layout_height="100dp"
                             android:layout_marginLeft="8dp"
                             android:layout_marginRight="2dp"
@@ -147,7 +149,7 @@
 
                         <ImageButton
                             android:id="@+id/imageButtonBtmSem4"
-                            android:layout_width="170dp"
+                            android:layout_width="202dp"
                             android:layout_height="100dp"
                             android:layout_marginLeft="2dp"
                             android:layout_marginBottom="5dp"
@@ -182,7 +184,7 @@
 
                         <ImageButton
                             android:id="@+id/imageButtonBtmSem5"
-                            android:layout_width="170dp"
+                            android:layout_width="194dp"
                             android:layout_height="100dp"
                             android:layout_marginLeft="8dp"
                             android:layout_marginRight="2dp"
@@ -211,7 +213,7 @@
 
                         <ImageButton
                             android:id="@+id/imageButtonBtmSem6"
-                            android:layout_width="170dp"
+                            android:layout_width="198dp"
                             android:layout_height="100dp"
                             android:layout_marginLeft="2dp"
                             android:layout_marginBottom="5dp"
@@ -247,7 +249,7 @@
 
                         <ImageButton
                             android:id="@+id/imageButtonBtmSem7"
-                            android:layout_width="170dp"
+                            android:layout_width="194dp"
                             android:layout_height="100dp"
                             android:layout_marginLeft="8dp"
                             android:layout_marginRight="2dp"
@@ -276,7 +278,7 @@
 
                         <ImageButton
                             android:id="@+id/imageButtonBtmSem8"
-                            android:layout_width="170dp"
+                            android:layout_width="197dp"
                             android:layout_height="100dp"
                             android:layout_marginLeft="2dp"
                             android:layout_marginBottom="5dp"

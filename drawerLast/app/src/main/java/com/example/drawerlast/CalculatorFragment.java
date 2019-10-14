@@ -56,8 +56,8 @@ public class CalculatorFragment extends Fragment {
 
                 double number1 = Double.parseDouble(num1.getText().toString());
                 double number2 = Double.parseDouble(num2.getText().toString());
-                double temp = number1 - number2;
-                result.setText (String.valueOf (temp));
+                double tempres = number1 - number2;
+                result.setText (String.valueOf (tempres));
             }
         });
 
@@ -68,8 +68,8 @@ public class CalculatorFragment extends Fragment {
 
                 double number1 = Double.parseDouble(num1.getText().toString());
                 double number2 = Double.parseDouble(num2.getText().toString());
-                double temp = number1 * number2;
-                result.setText (String.valueOf (temp));
+                double tempres = number1 * number2;
+                result.setText (String.valueOf (tempres));
             }
         });
 

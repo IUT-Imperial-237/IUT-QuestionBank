@@ -87,7 +87,7 @@
 
                         <ImageButton
                             android:id="@+id/imageButtonTveSem2"
-                            android:layout_width="189dp"
+                            android:layout_width="191dp"
                             android:layout_height="100dp"
                             android:layout_marginStart="2dp"
                             android:layout_marginLeft="2dp"
@@ -303,7 +303,6 @@
                             android:layout_marginBottom="5dp"
                             android:background="#1976D2"
                             android:clickable="true"
-                            android:contentDescription="@string/todo"
                             android:focusable="true"
                             tools:layout_editor_absoluteX="5dp"
                             tools:layout_editor_absoluteY="44dp" />

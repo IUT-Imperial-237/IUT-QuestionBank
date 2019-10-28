@@ -2,24 +2,32 @@ package com.example.drawerlast;
 
 import android.app.SearchManager;
 import android.content.Context;
+import android.os.Build;
 import android.os.Bundle;
-import android.support.design.widget.NavigationView;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.SearchView;
+
+import androidx.annotation.RequiresApi;
+import androidx.appcompat.widget.Toolbar;
+
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.fragment.app.FragmentTransaction;
+
+import com.google.android.material.navigation.NavigationView;
+
+import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     NavigationView navigationView = null;
     Toolbar toolbar = null;
-    SearchView  mSearchView = null ;
+    SearchView  mSearchView ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,15 +37,13 @@ public class MainActivity extends AppCompatActivity
 
         //Set the fragment initially
         MainFragment fragment = new MainFragment();
-        android.support.v4.app.FragmentTransaction fragmentTransaction =
+        FragmentTransaction fragmentTransaction =
                 getSupportFragmentManager().beginTransaction();
         fragmentTransaction.replace(R.id.fragment_container, fragment);
         fragmentTransaction.commit();
 
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        mSearchView = findViewById (R.id.search);
 
 //        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
 //        fab.setOnClickListener(new View.OnClickListener() {
@@ -48,18 +54,17 @@ public class MainActivity extends AppCompatActivity
 //            }
 //        });
 
-
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
 
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        //drawer.setDrawerListener(toggle);
-        drawer.addDrawerListener (toggle);
+        drawer.setDrawerListener(toggle);
+        //drawer.addDrawerListener(toggle);
         toggle.syncState();
 
         navigationView = findViewById(R.id.nav_view);
 
-        //How to change elements in the header programmatically
+        //How to change elements in the header programatically
         View headerView = navigationView.getHeaderView(0);
 //        TextView emailText = (TextView) headerView.findViewById(R.id.email);
 //        emailText.setText("newemail@email.com");
@@ -77,6 +82,7 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -89,7 +95,7 @@ public class MainActivity extends AppCompatActivity
         SearchView searchView =
                 (SearchView) menu.findItem(R.id.search).getActionView();
         searchView.setSearchableInfo(
-                searchManager.getSearchableInfo(getComponentName()));
+                Objects.requireNonNull (searchManager).getSearchableInfo(getComponentName()));
 
         return true;
     }
@@ -118,7 +124,7 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_home) {
             //Set the fragment initially
             MainFragment fragment = new MainFragment();
-            android.support.v4.app.FragmentTransaction fragmentTransaction =
+            FragmentTransaction fragmentTransaction =
                     getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.fragment_container, fragment);
             fragmentTransaction.commit();
@@ -126,7 +132,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_favorites) {
             //Set the fragment initially
             GalleryFragment fragment = new GalleryFragment();
-            android.support.v4.app.FragmentTransaction fragmentTransaction =
+            FragmentTransaction fragmentTransaction =
                     getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.fragment_container, fragment);
             fragmentTransaction.commit();
@@ -134,15 +140,15 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_submit) {
 
             CalculatorFragment fragment = new CalculatorFragment();
-            android.support.v4.app.FragmentTransaction fragmentTransaction =
+            FragmentTransaction fragmentTransaction =
                     getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.fragment_container, fragment);
             fragmentTransaction.commit();
 
         } else if (id == R.id.nav_tools) {
 
-           AboutFragment fragment = new AboutFragment();
-            android.support.v4.app.FragmentTransaction fragmentTransaction =
+            AboutFragment fragment = new AboutFragment();
+            FragmentTransaction fragmentTransaction =
                     getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.fragment_container, fragment);
             fragmentTransaction.commit();

@@ -2,8 +2,6 @@ package com.example.drawerlast;
 
 import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.RequiresApi;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +9,10 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.RequiresApi;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 
 import java.util.Objects;
 
@@ -102,6 +104,7 @@ public class SemesterFragment extends Fragment {
 
     private void listener (LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         sem1.setOnClickListener (new View.OnClickListener () {
+
             @RequiresApi(api = Build.VERSION_CODES.KITKAT)
             @Override
             public void onClick (View v) {
@@ -112,7 +115,7 @@ public class SemesterFragment extends Fragment {
                 bundle.putString ("department", txtTitle.getText ().toString ());
                 bundle.putInt ("semester", 1);
                 fragment.setArguments (bundle);
-                android.support.v4.app.FragmentTransaction fragmentTransaction = Objects.requireNonNull (getActivity ()).getSupportFragmentManager ().beginTransaction ();
+                FragmentTransaction fragmentTransaction = Objects.requireNonNull (getActivity ()).getSupportFragmentManager ().beginTransaction ();
                 fragmentTransaction.replace (R.id.fragment_container, fragment);
                 fragmentTransaction.commit ();
             }

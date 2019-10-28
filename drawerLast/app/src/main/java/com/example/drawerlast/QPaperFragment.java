@@ -2,8 +2,6 @@ package com.example.drawerlast;
 
 import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.RequiresApi;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,6 +10,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.SearchView;
 import android.widget.Toast;
+
+import androidx.annotation.RequiresApi;
+import androidx.fragment.app.Fragment;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -74,7 +75,6 @@ public class QPaperFragment extends Fragment {
             @Override
             public void onItemClick (AdapterView<?> parent, View view, int position, long id) {
                 Toast.makeText (getContext (), bundle.getString ("department") + bundle.getInt ("semester") + parent.getItemAtPosition (position), Toast.LENGTH_SHORT).show ();
-
             }
         });
     }
